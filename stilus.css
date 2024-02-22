@@ -7,24 +7,29 @@ body{
 header{
     background-color: rgb(0, 255, 191);
     text-align: center;
-    padding: 1%;
+    padding: 15px;
 
 }
 nav{
-    background-color: rgb(60, 255, 0);
+    /* background-color: rgb(60, 255, 0); */
+    background-color: white;
     float: left;
     width: 20%;
     height: 550px;
+    padding-top: 20px;
+    font-size:1vw;
 }
 nav ul{
     list-style-type: none;
+    /* margin: 0px; */
+    /* padding: 0px; */
 }
 article{
-    background-color: rgb(139, 255, 104);
-    /* background-color: white; */
+    /* background-color: rgb(139, 255, 104); */
+    background-color: white;
     float: left;
     width: 80%;
-    padding: 5%;
+    /* padding: 5%; */
     height: 550px;
 }
 footer{
@@ -56,11 +61,12 @@ a{
 
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.445);
     border-radius: 10px;
     padding: 20px;
     background-color: #fff;
     margin: 5px;
+    margin-left: 30px;
     width: 28%;
     display: inline-block;
     
